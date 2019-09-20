@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Burger = () => {
+const Burger = props => {
     return (
         <p>BURGER</p>
     )
