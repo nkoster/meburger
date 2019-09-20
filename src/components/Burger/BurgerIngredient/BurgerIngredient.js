@@ -5,10 +5,6 @@ import classes from './BurgerIngredient.module.css'
 
 class BurgerIngredient extends Component {
 
-    constructor(props) {
-        super()
-    }
-
     render() {
 
         let ingredient = null
