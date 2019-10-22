@@ -11,9 +11,7 @@ const Burger = props => {
                     return <BurgerIngredient key={ingrKey + i} type={ingrKey} />
                 })
         })
-        .reduce((arr, element) => {
-            return arr.concat(element)
-        }, [])
+        .reduce((arr, element) => arr.concat(element), [])
 
     if (transformedIngredients.length === 0) {
         transformedIngredients = <p>Fill Me!</p>
